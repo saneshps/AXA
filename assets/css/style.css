@@ -324,7 +324,7 @@ hr {
 
 @media only screen and (max-width: 479px) {
   .section-padding {
-    padding: 10px 0 90px 0;
+    padding: 10px 0 50px 0;
   }
 }
 
@@ -8171,6 +8171,7 @@ only screen and (min-width: 1200px) and (max-width: 1399px) {
   border-radius: 13px;
   position: relative;
   background: #fff;
+  height: 290px;
 }
 
 .service-two-single:hover .service-two-thumb-bg::after {
@@ -14148,12 +14149,13 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .breadcrumb-list li a:hover {
-  color: #343c55;
+  color: #c40619;
 }
 
 .breadcrumb-list li span {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  color: #fff;
 }
 
 .breadcrumb-three {
@@ -18285,6 +18287,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media only screen and (min-width: 1250px) and (max-width: 1370px) {
+
+
+  .service-two-single {
+    height: 340px;
+  }
+
   .about-two-images-thumb {
     top: -50px;
   }
@@ -18321,6 +18329,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1249px) {
+
+  .service-two-single {
+    height: 300px;
+  }
 
   .about-two-images-thumb .date {
     font-size: 30px;
@@ -18362,6 +18374,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+  .service-two-single {
+    height: auto;
+  }
 
   .about-two-images-two {
     display: flex;
@@ -18405,6 +18421,19 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media only screen and (max-width: 767px) {
+
+  .service-two-thumb {
+    margin-bottom: 13px;
+  }
+
+  .service-two-single {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 
   .about-two-images-two img {
     display: none;
