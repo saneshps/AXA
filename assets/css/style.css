@@ -244,7 +244,7 @@ hr {
 
 @media only screen and (min-width: 1800px) {
   .custom-container {
-    margin: 0 100px 0 auto;
+    margin: 0 auto;
     max-width: 80% !important;
   }
 }
@@ -252,7 +252,8 @@ hr {
 /* Custom Container */
 @media only screen and (min-width: 1400px) {
   .container {
-    max-width: 1300px;
+    max-width: 70%;
+    margin: 0 auto;
   }
 }
 
@@ -732,6 +733,17 @@ hr {
   padding: 25px 65px;
   line-height: 1;
   position: relative;
+}
+
+.slider-one {
+  height: 100vh;
+  padding-top: 140px;
+  position: relative;
+  background: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1244,11 +1256,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-wrapper-two .hamburger_button span {
-  background: #E02B20;
+  background: #fff;
 }
 
 .header-wrapper-two .hamburger_button:hover span {
-  background: #E02B20;
+  background: #fff;
 }
 
 .offcanvas {
@@ -1318,7 +1330,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   line-height: 120px;
   cursor: pointer;
   font-weight: 500;
-  color: #343c55;
+  color: #fff;
   position: relative;
   transition: 0.3s;
 }
@@ -1337,6 +1349,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   align-items: center;
 }
 
+.main-menu .has-children a:hover {
+  color: #fff !important;
+}
+
 .main-menu .has-children a img {
   margin: 0 10px 0 0;
   width: 22px;
@@ -1345,7 +1361,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .main-menu .has-children a i {
   margin: 0 0px 0 10px;
   font-size: 16px;
-  color: #e02b20;
+  color: #fff;
 }
 
 
@@ -1355,8 +1371,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .main-menu .has-children>.sub-menu {
   position: absolute;
-  background: #ffffff;
-  box-shadow: 0 0 6px -3px;
+  background: #e02b20;
   width: 230px;
   transform-origin: 0 0 0;
   transform: scaleY(0);
@@ -1364,7 +1379,6 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   z-index: 9;
   padding-left: 0;
   top: 100%;
-  border-bottom: 2px solid #322fb3;
   padding: 0px;
 }
 
@@ -1380,7 +1394,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   padding: 12px 20px;
   font-weight: 500;
   font-size: 16px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   display: block;
 }
@@ -1581,7 +1595,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   width: 100%;
   z-index: 999;
   margin-top: 0px;
-  background-color: #ffffff;
+  background-color: #dc1919;
   box-shadow: 10px 0px 49px rgba(25, 7, 89, 0.08);
   transition: 0.3s;
   padding: 10px 0;
@@ -1593,7 +1607,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .sticky-header.sticky .main-menu>ul>li>a {
-  line-height: 70px;
+  line-height: 20px;
 }
 
 .sticky-header.sticky .social-icon li a {
@@ -1719,11 +1733,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 /* Header Four  */
 .header-four {
-  margin-top: 10px;
+  margin-top: 0px;
   position: fixed;
   width: 100%;
   z-index: 999;
-  /* background: #ffffff; */
+  background: #e02b20;
   padding: 10px 0;
 }
 
@@ -1801,7 +1815,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-four .main-menu>ul>li>a {
-  line-height: 100px;
+  line-height: 40px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1811,7 +1825,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .header-four .main-menu>ul>li>a:hover {
-  color: #E02B20;
+  color: #fff !important;
 }
 
 .header-four.sticky .header-top {
@@ -2117,6 +2131,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
   overflow: hidden;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 1550px) and (max-width: 1699px) {
@@ -2188,7 +2203,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .sliderone-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
 }
 
@@ -2215,9 +2230,10 @@ only screen and (max-width: 767px) {
 
 .sliderone-content .slider-content {
   flex: 0 0 auto;
-  width: 42%;
+  width: 100%;
   padding: 0 15px;
   z-index: 3;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1550px) and (max-width: 1699px) {
@@ -2262,7 +2278,6 @@ only screen and (max-width: 767px) {
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
-  display: flex;
   margin-bottom: 5px;
 }
 
@@ -2323,8 +2338,6 @@ only screen and (max-width: 767px) {
 .sliderone-content .slider-content .call {
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2722,7 +2735,7 @@ only screen and (max-width: 767px) {
 
   .sliderone-slingle {
     height: 960px;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .sliderone .button-container {
@@ -6590,7 +6603,6 @@ only screen and (max-width: 767px) {
 }
 
 .about-creative-tab .nav-content-inner p {
-  max-width: 303px;
   width: 100%;
   margin-bottom: 0;
 }
@@ -10290,7 +10302,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 .testimonial-two-single {
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.07);
   border-radius: 13px;
-  padding: 0 50px 50px;
+  padding: 40px 50px 50px;
 }
 
 .testimonial-two-single .quote {
@@ -10304,10 +10316,10 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 .testimonial-two-single .text {
-  font-style: italic;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 1.42;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 767px) {
@@ -10318,8 +10330,9 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 
 .testimonial-two-single .user {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 20px;
+  text-align: left;
 }
 
 .testimonial-two-single .user-meta {
@@ -14022,7 +14035,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .breadcrumb {
-    height: auto;
+    height: 220px;
   }
 }
 
@@ -14034,7 +14047,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 
 @media only screen and (max-width: 479px) {
   .breadcrumb {
-    height: auto;
+    height: 220px;
   }
 }
 
@@ -18251,7 +18264,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   }
 
   .logo-2 {
-    width: 230px;
+    width: 190px;
     padding: 5px;
   }
 }
@@ -18421,6 +18434,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 @media only screen and (max-width: 767px) {
+
+  .testimonial-two-single {
+    padding: 30px 30px 20px;
+  }
 
   .service-two-thumb {
     margin-bottom: 13px;
