@@ -152,7 +152,7 @@ Vertical Testimonial Activation
   var swiper = new Swiper(".brand-slider", {
     loop: true,
     speed: 800,
-    autoplay: false,
+    autoplay: true,
     slidesPerView: 5,
     spaceBetween: 0,
     pagination: false,
